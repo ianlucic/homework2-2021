@@ -29,7 +29,7 @@ time, mark, audio, video {
 
 body {
     line-height:1;
-    font-family:'Times New Roman', Times, Arial, sans-serif;
+    font-family:'Times New Roman', sans-serif;
     background-color: #000000; 
     color: white;
     }
@@ -105,35 +105,34 @@ input, select {
 }
 
 #intro{
-    height: 150px;
-    padding: 25px;
     background-color: #000000;
 }
 
 #red{
-    height: 150px;
-    padding: 25px;
     background-color:#FF0000;
     text-align: right;
 }
 
 #blue{
-    height: 150px;
-    padding: 25px;
+
+
     background-color:#0000FF;
     text-align: left;
 }
 
 #yellow{
-    height: 150px;
-    padding: 25px;
+
+
     background-color:#FFFF00;
     text-align: right;
 }
 
+h2 p{
+    color:#000000;
+    text-shadow: 4px 4px 2px #c7e2c7;
+}
+
 #green{
-    height: 150px;
-    padding: 25px;
     background-color:#008000;
     text-align: left;
 }
@@ -163,3 +162,23 @@ img{
     margin-left: auto;
     margin-right: auto;
 }
+
+footer p{
+    text-align: center;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+div{
+    height: 150px;
+    padding: 25px;
+}
+
+/* Part 6 
+
+
+h2 p{
+    color:#000000;
+    text-shadow: 4px 4px 2px #c7e2c7;
+}
+*/
